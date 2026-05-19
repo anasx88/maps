@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>خريطة المواقع الصحية</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIINfQqMtxfVZw9MZlV5D4bU5B2Q5tX6bCk="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="styles.css?v=mobile-20260520-3" />
+    <style>
+      @media (max-width: 720px) {
+        body.filters-open {
+          overflow: hidden !important;
+        }
+
+        .topbar {
+          min-height: 62px !important;
+          padding: 12px 14px !important;
+          align-items: center !important;
+          flex-direction: row !important;
+        }
+
+        .topbar h1 {
+          font-size: 17px !important;
+          margin-bottom: 2px !important;
+          white-space: nowrap !important;
+        }
+
+        .topbar p {
+          font-size: 12px !important;
+        }
+
+        .workspace {
+          grid-template-columns: 1fr !important;
+          grid-template-rows: 1fr !important;
+          min-height: calc(100svh - 62px) !important;
+        }
+
+        .controls {
+          position: fixed !important;
+          inset-inline: 0 !important;
+          inset-block-end: 0 !important;
+          z-index: 1100 !important;
+          max-height: min(78svh, 520px) !important;
+          padding: 14px 16px calc(18px + env(safe-area-inset-bottom)) !important;
+          border-left: 0 !important;
+          border-radius: 16px 16px 0 0 !important;
+          box-shadow: 0 -18px 44px rgba(15, 23, 42, 0.22) !important;
+          transform: translateY(105%) !important;
+          transition: transform 180ms ease !important;
+        }
+
+        body.filters-open .controls {
+          transform: translateY(0) !important;
+        }
+
+        .mobile-sheet-header {
+          display: flex !important;
+          align-items: center !important;
+          justify-content: space-between !important;
+          gap: 12px !important;
+          padding-bottom: 6px !important;
+        }
+
+        .mobile-map-actions {
+          position: absolute !important;
+          inset-block-start: auto !important;
+          inset-block-end: calc(76px + env(safe-area-inset-bottom)) !important;
+          inset-inline-start: 10px !important;
+          z-index: 900 !important;
+          display: flex !important;
+          gap: 8px !important;
+        }
+
+        .mobile-map-actions button,
+        .sheet-close {
+          min-height: 36px !important;
+          padding: 0 12px !important;
+          border: 1px solid #d9e0e7 !important;
+          border-radius: 999px !important;
+          background: rgba(255, 255, 255, 0.94) !important;
+          color: #17202a !important;
+          box-shadow: 0 8px 18px rgba(15, 23, 42, 0.16) !important;
+        }
+
+        #map {
+          height: 100% !important;
+          min-height: calc(100svh - 62px) !important;
+        }
+
+        .legend {
+          display: none !important;
+          inset-inline: 10px auto !important;
+          inset-block-end: calc(122px + env(safe-area-inset-bottom)) !important;
+          max-width: calc(100% - 20px) !important;
+          max-height: min(46svh, 360px) !important;
+          overflow: auto !important;
+        }
+
+        .legend.is-open {
+          display: grid !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <h1>خريطة المواقع الصحية</h1>
+          <p id="resultSummary">جاري تحميل البيانات...</p>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <section class="controls" aria-label="البحث والفلاتر">
+          <div class="mobile-sheet-header">
+            <strong>الفلاتر</strong>
+            <button id="closeMobileFilters" class="sheet-close" type="button">إغلاق</button>
+          </div>
+
+          <label>
+            <span>بحث باسم الموقع</span>
+            <input id="searchInput" type="search" placeholder="اكتب اسم الموقع" autocomplete="off" />
+          </label>
+
+          <label>
+            <span>المنطقة</span>
+            <select id="regionFilter">
+              <option value="">كل المناطق</option>
+            </select>
+          </label>
+
+          <label>
+            <span>نوع المنشأة</span>
+            <select id="typeFilter">
+              <option value="">كل الأنواع</option>
+            </select>
+          </label>
+
+          <label>
+            <span>الجهة المشغلة</span>
+            <select id="operatorFilter">
+              <option value="">كل الجهات</option>
+            </select>
+          </label>
+        </section>
+
+        <section class="map-area" aria-label="الخريطة">
+          <div id="map"></div>
+          <div class="mobile-map-actions" aria-label="خيارات الخريطة">
+            <button id="openMobileFilters" type="button">فلترة</button>
+            <button id="toggleMobileLegend" type="button">الألوان</button>
+          </div>
+          <div id="legend" class="legend" aria-label="دليل الألوان"></div>
+        </section>
+
+        <aside id="sidePanel" class="side-panel" aria-label="تفاصيل الموقع">
+          <button id="closePanel" class="close-button" type="button" aria-label="إغلاق">×</button>
+          <div id="siteDetails" class="site-details empty-state">
+            اختر موقعًا من الخريطة لعرض التفاصيل.
+          </div>
+        </aside>
+      </main>
+
+      <div id="infoModal" class="info-modal" hidden role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-card">
+          <button id="closeInfoModal" class="modal-close" type="button" aria-label="إغلاق">×</button>
+          <h2 id="modalTitle" class="modal-title">تفاصيل الموقع</h2>
+          <div id="modalBody" class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="data/sites.js?v=mobile-20260520-3"></script>
+    <script src="app.js?v=mobile-20260520-3"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        if (window.__mobileControlsReady) return;
+
+        var openFilters = document.getElementById("openMobileFilters");
+        var closeFilters = document.getElementById("closeMobileFilters");
+        var toggleLegend = document.getElementById("toggleMobileLegend");
+        var legend = document.getElementById("legend");
+
+        if (openFilters) {
+          openFilters.addEventListener("click", function () {
+            document.body.classList.add("filters-open");
+            if (legend) legend.classList.remove("is-open");
+          });
+        }
+
+        if (closeFilters) {
+          closeFilters.addEventListener("click", function () {
+            document.body.classList.remove("filters-open");
+          });
+        }
+
+        if (toggleLegend && legend) {
+          toggleLegend.addEventListener("click", function () {
+            legend.classList.toggle("is-open");
+            document.body.classList.remove("filters-open");
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
