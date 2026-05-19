@@ -1,0 +1,6806 @@
+window.SITES_DATA = [
+  {
+    "id": "1",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 2,
+    "name": "وزارة الدفاع – مستشفى القوات المسلحة بمنى",
+    "region": "منى",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الدفاع",
+    "beds": "53",
+    "bedsTotal": "53",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "إجمالي فقط",
+    "latitude": 21.399063,
+    "longitude": 39.899188,
+    "responsible": {
+      "name": "المدير الطبي / الطبيب :حمدان سعيد الغامدي",
+      "mobile": "0555883456"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/CM7USWugvqUPrkhK6"
+  },
+  {
+    "id": "2",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 3,
+    "name": "وزارة الدفاع – المستشفى الميداني بمشعر منى",
+    "region": "منى",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الدفاع",
+    "beds": "50",
+    "bedsTotal": "50",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.401063,
+    "longitude": 39.900813,
+    "responsible": {
+      "name": "العميد الطبيب / محمد علي معيض الزهراني",
+      "mobile": "0564588331"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/WFbaSpb5rPZqcPWo9"
+  },
+  {
+    "id": "3",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 4,
+    "name": "وزارة الدفاع – المركز الطبي لمعالجة ضربات الشمس والإجهاد الحراري بمنى بجوار مبنى الجمرات",
+    "region": "منى",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الدفاع",
+    "beds": "20",
+    "bedsTotal": "20",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.425277,
+    "longitude": 39.866196,
+    "responsible": {
+      "name": "النقيب / محمد سعود سالم الجعيد",
+      "mobile": "0500664215"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/DHVEBXqEdaHmzPCz5"
+  },
+  {
+    "id": "4",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 5,
+    "name": "وزارة الدفاع – المركز الإسعافي بمنى بجوار مبنى الجمرات",
+    "region": "منى",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الدفاع",
+    "beds": "5",
+    "bedsTotal": "5",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.425251,
+    "longitude": 39.865971,
+    "responsible": {
+      "name": "النقيب / محمد سعود سالم الجعيد",
+      "mobile": "0500664215"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/CvdfATWT1YNRhAkG9"
+  },
+  {
+    "id": "5",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 6,
+    "name": "وزارة الدفاع – المركز الإسعافي بمنى",
+    "region": "منى",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الدفاع",
+    "beds": "11",
+    "bedsTotal": "11",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.395188,
+    "longitude": 39.905313,
+    "responsible": {
+      "name": "الرائد  طبيب / إبراهيم سليمان هادي عسيري",
+      "mobile": "0556374065"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/E1D9gBSEfQhHLxMa8"
+  },
+  {
+    "id": "6",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 7,
+    "name": "المستشفى الميداني بعرفات 6",
+    "region": "عرفات",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الداخلية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3550278,
+    "longitude": 39.9661111,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/oNdaaSamsXoeiqLx9"
+  },
+  {
+    "id": "7",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 8,
+    "name": "المستشفى الميداني بعرفات 7",
+    "region": "عرفات",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الحرس الوطني",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3479167,
+    "longitude": 39.9642778,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/6w6L4mbSJ9wZTx4N8"
+  },
+  {
+    "id": "8",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 9,
+    "name": "وزارة الدفاع -  المستشفى الميداني الأول بمشعر عرفة",
+    "region": "عرفات",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الدفاع",
+    "beds": "50",
+    "bedsTotal": "50",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.352438,
+    "longitude": 39.963562,
+    "responsible": {
+      "name": "العقيد طبيب / تركي محمد مرعي الشهري",
+      "mobile": "0568744415"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/pe3TAffNgFT7qaef9"
+  },
+  {
+    "id": "9",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 10,
+    "name": "وزارة الدفاع  – المستشفى الميداني الثاني بمشعر عرفة",
+    "region": "عرفات",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الدفاع",
+    "beds": "50",
+    "bedsTotal": "50",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "إجمالي فقط",
+    "latitude": 21.347063,
+    "longitude": 39.987562,
+    "responsible": {
+      "name": "المقديم / عبدالله سليمان بداح السليمان",
+      "mobile": "0545136380"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/c2K1W2jHaWMCnMWy9"
+  },
+  {
+    "id": "10",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 11,
+    "name": "وزراة الدفاع – المستشفى الميداني الثالث بمشعر عرفة ( موقع شمال نمرة )",
+    "region": "عرفات",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الدفاع",
+    "beds": "140",
+    "bedsTotal": "140",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.35466,
+    "longitude": 39.9671122,
+    "responsible": {
+      "name": "المقدم / ايمن محمد خلف السعدي",
+      "mobile": "0562366562"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/XtPLqjqZRCs31eGU9"
+  },
+  {
+    "id": "11",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 12,
+    "name": "وزراة الدفاع – المستشفى الميداني الرابع بمشعر عرفة ( موقع النقابة )",
+    "region": "عرفات",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الدفاع",
+    "beds": "240",
+    "bedsTotal": "240",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "إجمالي فقط",
+    "latitude": 21.347563,
+    "longitude": 39.976437,
+    "responsible": {
+      "name": "العميد الطبيب / فهد خميس احمد العمري",
+      "mobile": "0555516008"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/XNxrpYmupFLZfuDi7"
+  },
+  {
+    "id": "12",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 13,
+    "name": "المستشفى الميداني بمنى 12",
+    "region": "منى",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الحرس الوطني",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4069167,
+    "longitude": 39.8906111,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/s3zMUeMQWLU15d5D6"
+  },
+  {
+    "id": "13",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 14,
+    "name": "وزارة الدفاع – المركز الطبي لمعالجة ضربات الشمس والإجهاد الحراري بمشعر عرفة",
+    "region": "عرفات",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الدفاع",
+    "beds": "100",
+    "bedsTotal": "100",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.352188,
+    "longitude": 39.982437,
+    "responsible": {
+      "name": "الرائد / نايف محمد العصيمي",
+      "mobile": "0509802827"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/whvXgU4My4vG8Sa37"
+  },
+  {
+    "id": "14",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 15,
+    "name": "وزارة الدفاع – المركز الإسعافي بمحيط جبل الرحمة",
+    "region": "عرفات",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الدفاع",
+    "beds": "6",
+    "bedsTotal": "6",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.354565,
+    "longitude": 39.985926,
+    "responsible": {
+      "name": "الطبيب / عادل محمود الطويرقي",
+      "mobile": "0540771000"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/m4yLoPeihXk9GpwG6"
+  },
+  {
+    "id": "15",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 16,
+    "name": "وزارة الدفاع – المستشفى الميداني الأول بمشعر مزدلفة",
+    "region": "مزدلفة",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الدفاع",
+    "beds": "50",
+    "bedsTotal": "50",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "إجمالي فقط",
+    "latitude": 21.389311,
+    "longitude": 39.903671,
+    "responsible": {
+      "name": "المقدم المهندس / راشد محمد مسلط الشريف",
+      "mobile": "0555564760"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/c2K1W2jHaWMCnMWy9"
+  },
+  {
+    "id": "16",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 17,
+    "name": "وزارة الدفاع – المستشفى الميداني الثاني بمشعر مزدلفة ( موقع خط المشاه بجوار مسجد المشعر الحرام )",
+    "region": "مزدلفة",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الدفاع",
+    "beds": "50",
+    "bedsTotal": "50",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "إجمالي فقط",
+    "latitude": 21.38891171,
+    "longitude": 39.91106314,
+    "responsible": {
+      "name": "الرائد / مشهور سعود مهدي العتيبي",
+      "mobile": "0567040900"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/whvXgU4My4vG8Sa37"
+  },
+  {
+    "id": "17",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 18,
+    "name": "مستشفى منى الجسر",
+    "region": "منى",
+    "facilityType": "مستشفى",
+    "operator": "المستشفى السعودي الألماني",
+    "beds": "190",
+    "bedsTotal": "190",
+    "bedsIcu": "39",
+    "bedsEmergency": "11",
+    "bedsClinics": "5",
+    "bedsOperations": "2",
+    "bedsIsolation": "11",
+    "bedsHeat": "29",
+    "morgueCapacity": "63",
+    "serviceScope": "تقديم خدمات الطوارئ، التنويم، العناية المركزة، الإجهاد الحراري، العيادات التخصصية.",
+    "mainServices": "الطوارئ، العناية المركزة، الباطنة، الجراحة، الكلى، المناظير، الأشعة، المختبر.",
+    "coverageScope": "مشعر منى والمناطق المحيطة خلال موسم الحج.",
+    "bedsDataType": "تفصيلي",
+    "latitude": 21.4056043,
+    "longitude": 39.8882733,
+    "responsible": {
+      "name": "الدكتور/عبيد البركاتي",
+      "mobile": "556473039"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/zN1i9GAGubLppZULA"
+  },
+  {
+    "id": "18",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 19,
+    "name": "مستشفى منى الوادي",
+    "region": "منى",
+    "facilityType": "مستشفى",
+    "operator": "شركة قوة الصحة/ العبير (في انتظار توقيع الاتفاقية)",
+    "beds": "219",
+    "bedsTotal": "219",
+    "bedsIcu": "25",
+    "bedsEmergency": "24",
+    "bedsClinics": "6",
+    "bedsOperations": "2",
+    "bedsIsolation": "15",
+    "bedsHeat": "35",
+    "morgueCapacity": "48",
+    "serviceScope": "مستشفى عام موسمي يقدم خدمات متكاملة للحج.",
+    "mainServices": "طوارئ، إجهاد حراري، عناية مركزة، تنويم، غسيل كلوي، منظار هضمي، عمليات، قسطرة قلبية، عيادات تخصصية.",
+    "coverageScope": "مشعر منى والمناطق المحيطة خلال موسم الحج.",
+    "bedsDataType": "تفصيلي",
+    "latitude": 21.4131404,
+    "longitude": 39.9015283,
+    "responsible": {
+      "name": "الدكتور/خالد الشهراني",
+      "mobile": "554544663"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/SoBG8DneoFjxCKgD8"
+  },
+  {
+    "id": "19",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 20,
+    "name": "مستشفى الشارع الجديد بمنى",
+    "region": "منى",
+    "facilityType": "مستشفى",
+    "operator": "مجموعة رعاية الطبية",
+    "beds": "71",
+    "bedsTotal": "71",
+    "bedsIcu": "16",
+    "bedsEmergency": "0",
+    "bedsClinics": "2",
+    "bedsOperations": "0",
+    "bedsIsolation": "11",
+    "bedsHeat": "19",
+    "morgueCapacity": "12",
+    "serviceScope": "مستشفى عام خلال موسم الحج.",
+    "mainServices": "طوارئ، باطنة، عناية مركزة، كلى، مختبر، أشعة، صيدلية، مكافحة عدوى.",
+    "coverageScope": "مشعر منى والمناطق المحيطة خلال موسم الحج.",
+    "bedsDataType": "تفصيلي",
+    "latitude": 21.4111907,
+    "longitude": 39.8905112,
+    "responsible": {
+      "name": "الدكتور/عبدالاله المالكي",
+      "mobile": "558455034"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/sv3F1F6HsUZeQG2Y7"
+  },
+  {
+    "id": "20",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 21,
+    "name": "مستشفى الطوارئ بمنى",
+    "region": "منى",
+    "facilityType": "مستشفى",
+    "operator": "مستشفى مكة الطبي / شركة دلة",
+    "beds": "217",
+    "bedsTotal": "217",
+    "bedsIcu": "34",
+    "bedsEmergency": "28",
+    "bedsClinics": "8",
+    "bedsOperations": "3",
+    "bedsIsolation": "30",
+    "bedsHeat": "35",
+    "morgueCapacity": "34",
+    "serviceScope": "خدمات الطوارئ والتنويم والعناية المركزة والعزل والعمليات.",
+    "mainServices": "طوارئ، مركز ضربات الحرارة، عناية مركزة، باطنة، جراحة، غسيل كلوي، مناظير، عيادات خارجية.",
+    "coverageScope": "مشعر منى والمناطق المحيطة خلال موسم الحج.",
+    "bedsDataType": "تفصيلي",
+    "latitude": 21.4136492,
+    "longitude": 39.8800036,
+    "responsible": {
+      "name": "الدكتور/نزار محمد أحمد",
+      "mobile": "569778167"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/ct5xaSoPWQFwNLPR8"
+  },
+  {
+    "id": "21",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 22,
+    "name": "مستشفى الطوارئ بمنىى (توسعة)",
+    "region": "منى",
+    "facilityType": "مستشفى",
+    "operator": "مستشفى مكة الطبي / شركة دلة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4131021,
+    "longitude": 39.8792727,
+    "responsible": {
+      "name": "الدكتور/نزار محمد أحمد",
+      "mobile": "569778167"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/tTL6vYpmEhj4CFe96"
+  },
+  {
+    "id": "22",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 23,
+    "name": "مبنى الطب الوقائي بمنى",
+    "region": "منى",
+    "facilityType": "الطب الوقائي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.414993,
+    "longitude": 39.8835489,
+    "responsible": {
+      "name": "د.مصطفى مستنطق",
+      "mobile": "504528789"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/gDLHYZ8CjZjJxFiz7"
+  },
+  {
+    "id": "23",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 24,
+    "name": "مبنى الطب الوقائ بمنى 2",
+    "region": "منى",
+    "facilityType": "الطب الوقائي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4137761,
+    "longitude": 39.89768,
+    "responsible": {
+      "name": "د.مصطفى مستنطق",
+      "mobile": "504528789"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/DLo76qnzNKqHvSNG8"
+  },
+  {
+    "id": "24",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 25,
+    "name": "مستشفى نمرة بعرفات",
+    "region": "عرفات",
+    "facilityType": "مستشفى",
+    "operator": "مجموعة فقيه",
+    "beds": "114",
+    "bedsTotal": "114",
+    "bedsIcu": "18",
+    "bedsEmergency": "15",
+    "bedsClinics": "0",
+    "bedsOperations": "0",
+    "bedsIsolation": "11",
+    "bedsHeat": "7",
+    "morgueCapacity": "36",
+    "serviceScope": "خدمات الطوارئ والعناية المركزة والإجهاد الحراري.",
+    "mainServices": "طوارئ، عناية مركزة، إجهاد حراري، غسيل كلوي، خدمات مساندة.",
+    "coverageScope": "مشعر عرفات والمناطق المحيطة خلال موسم الحج.",
+    "bedsDataType": "تفصيلي",
+    "latitude": 21.3524522,
+    "longitude": 39.9730646,
+    "responsible": {
+      "name": "الدكتور/ضياء منصوري",
+      "mobile": "560001015"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/7JApUzbYSHDZTmGA8"
+  },
+  {
+    "id": "25",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 26,
+    "name": "مستشفى عرفات العام",
+    "region": "عرفات",
+    "facilityType": "مستشفى",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3502544,
+    "longitude": 39.9825396,
+    "responsible": {
+      "name": "ريان فلمبان",
+      "mobile": "599992427"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/xjJ2oYxeCJGJFKKcA"
+  },
+  {
+    "id": "26",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 27,
+    "name": "مستشفى جبل الرحمة بعرفات",
+    "region": "عرفات",
+    "facilityType": "مستشفى",
+    "operator": "وزارة الصحة",
+    "beds": "183",
+    "bedsTotal": "183",
+    "bedsIcu": "44",
+    "bedsEmergency": "23",
+    "bedsClinics": "20",
+    "bedsOperations": "3",
+    "bedsIsolation": "20",
+    "bedsHeat": "20",
+    "morgueCapacity": "27",
+    "serviceScope": "مستشفى عام موسمي خلال فترة الحج.",
+    "mainServices": "الجراحة العامة، الباطنة، الطوارئ، العناية المركزة، الإجهاد الحراري، العيادات، غسيل الكلى، المناظير، أمراض القلب.",
+    "coverageScope": "مشعر عرفات والمناطق المحيطة خلال موسم الحج.",
+    "bedsDataType": "تفصيلي",
+    "latitude": 21.352955,
+    "longitude": 39.9831338,
+    "responsible": {
+      "name": "الدكتور/الحسن المغربي",
+      "mobile": "553538909"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/ihkA5PCKj5vM4rez6"
+  },
+  {
+    "id": "27",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 28,
+    "name": "مستشفى ميداني متنقل 200 سرير بعرفات",
+    "region": "عرفات",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3476243,
+    "longitude": 39.9763291,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/gLh2VgCQks3pdQgY7"
+  },
+  {
+    "id": "28",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 29,
+    "name": "مستشفى نمرة المشاة بعرفات",
+    "region": "عرفات",
+    "facilityType": "مستشفى",
+    "operator": "مجموعة رعاية الطبية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3538586,
+    "longitude": 39.9697246,
+    "responsible": {
+      "name": "ريان فلمبان",
+      "mobile": "599992427"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/D5H3xkkUnC8fabwK6"
+  },
+  {
+    "id": "29",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 30,
+    "name": "مستشفى شرق عرفات",
+    "region": "عرفات",
+    "facilityType": "مستشفى",
+    "operator": "وزارة الصحة",
+    "beds": "222",
+    "bedsTotal": "222",
+    "bedsIcu": "52",
+    "bedsEmergency": "39",
+    "bedsClinics": "29",
+    "bedsOperations": "2",
+    "bedsIsolation": "20",
+    "bedsHeat": "28",
+    "morgueCapacity": "60",
+    "serviceScope": "الطوارئ، التنويم، العناية المركزة، العزل، العيادات.",
+    "mainServices": "باطنة، جراحة، عمليات، عناية مركزة، خدمات تنفسية، مكافحة عدوى، أشعة ومختبر، مناظير، غسيل كلوي.",
+    "coverageScope": "مشعر عرفات والمناطق المحيطة خلال موسم الحج.",
+    "bedsDataType": "تفصيلي",
+    "latitude": 21.3346017,
+    "longitude": 39.9871318,
+    "responsible": {
+      "name": "الدكتور/مؤيد الرفاعي",
+      "mobile": "551515133"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/LgMmG38UiBAV8nXw5"
+  },
+  {
+    "id": "30",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 31,
+    "name": "مستشفى عرفات العام الميداني",
+    "region": "عرفات",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3544586,
+    "longitude": 39.9697027,
+    "responsible": {
+      "name": "ريان فلمبان",
+      "mobile": "599992427"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/HaitYGULak6rD3BW9"
+  },
+  {
+    "id": "31",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 32,
+    "name": "المستشفى الميداني 1 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الصحة",
+    "beds": "50",
+    "bedsTotal": "50",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "إجمالي فقط",
+    "latitude": 21.350239,
+    "longitude": 39.983882,
+    "responsible": {
+      "name": "ريان فلمبان",
+      "mobile": "599992427"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/Cw2nwc44xMStn2LG7"
+  },
+  {
+    "id": "32",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 33,
+    "name": "المستشفى الميداني بمزدلفة بسعة 50 سرير",
+    "region": "مزدلفة",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الصحة",
+    "beds": "50",
+    "bedsTotal": "50",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "إجمالي فقط",
+    "latitude": 21.3888858,
+    "longitude": 39.9110708,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/XtPLqjqZRCs31eGU9"
+  },
+  {
+    "id": "33",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 34,
+    "name": "مستشفى النور االتخصصي",
+    "region": "مكة المكرمة",
+    "facilityType": "مستشفى",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3860901,
+    "longitude": 39.8578878,
+    "responsible": {
+      "name": "ريان فلمبان",
+      "mobile": "599992427"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/jj1FR25CvQcaCzi26"
+  },
+  {
+    "id": "34",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 35,
+    "name": "مستشفى الملك فيصل التخصصي",
+    "region": "مكة المكرمة",
+    "facilityType": "مستشفى",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4346411,
+    "longitude": 39.8528007,
+    "responsible": {
+      "name": "د.مصطفى مستنطق",
+      "mobile": "504528789"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/YRufRXR2hLkdPRHF7"
+  },
+  {
+    "id": "35",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 36,
+    "name": "مستشفى الملك عبدالعزيز بالزاهر",
+    "region": "مكة المكرمة",
+    "facilityType": "مستشفى",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.441953,
+    "longitude": 39.807879,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/icSxdKmehbB6eiEL9"
+  },
+  {
+    "id": "36",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 37,
+    "name": "مستشفى الولادة والأطفال",
+    "region": "مكة المكرمة",
+    "facilityType": "مستشفى",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.376193,
+    "longitude": 39.8805719,
+    "responsible": {
+      "name": "ريان فلمبان",
+      "mobile": "599992427"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/EKXQc2uiwkxYzuk1A"
+  },
+  {
+    "id": "37",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 38,
+    "name": "مدينة الملك عبدالله الطبية",
+    "region": "مكة المكرمة",
+    "facilityType": "مستشفى",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3818116,
+    "longitude": 39.8788806,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/81TZgwjb9dwgEfE26"
+  },
+  {
+    "id": "38",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 39,
+    "name": "مستشفى الحرم للطوارئ",
+    "region": "مكة المكرمة",
+    "facilityType": "مستشفى",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.426619,
+    "longitude": 39.8280982,
+    "responsible": {
+      "name": "د.مصطفى مستنطق",
+      "mobile": "504528789"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/CSHoBbVtNdrixAmk7"
+  },
+  {
+    "id": "39",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 40,
+    "name": "مستشفى مكة المكرمة العامة",
+    "region": "مكة المكرمة",
+    "facilityType": "مستشفى",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.5308556,
+    "longitude": 39.989882,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/uG3C3dDczCNbhcao7"
+  },
+  {
+    "id": "40",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 41,
+    "name": "مستشفى حراء العام",
+    "region": "مكة المكرمة",
+    "facilityType": "مستشفى",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4865017,
+    "longitude": 39.7896165,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/YpMy4BHgpgvc9WXe9"
+  },
+  {
+    "id": "41",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 42,
+    "name": "وزارة الدفاع  – مركز الطوارئ بدقم الوبر",
+    "region": "مزدلفة",
+    "facilityType": "مستشفى ميداني",
+    "operator": "وزارة الدفاع",
+    "beds": "220",
+    "bedsTotal": "220",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "إجمالي فقط",
+    "latitude": 21.3839001,
+    "longitude": 39.8867165,
+    "responsible": {
+      "name": "العميد الطبيب / تركي احمد جعبول الزهراني",
+      "mobile": "0505654789"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/wJxSe6AqvBVZjtcm7"
+  },
+  {
+    "id": "42",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 43,
+    "name": "سكن مستشفى نمرة",
+    "region": "عرفات",
+    "facilityType": "سكن",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3522341,
+    "longitude": 39.9722424,
+    "responsible": {
+      "name": "الدكتور/ضياء منصوري",
+      "mobile": "560001015"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/hTkR8r2GiM1e5reU7"
+  },
+  {
+    "id": "43",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 44,
+    "name": "سكن عثمان بن عفان بعرفات",
+    "region": "عرفات",
+    "facilityType": "سكن",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3512533,
+    "longitude": 39.983896,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/aroT3geW9YZRe5Gk8"
+  },
+  {
+    "id": "44",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 45,
+    "name": "سكن مستشفى جبل الرحمة",
+    "region": "عرفات",
+    "facilityType": "سكن",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3529366,
+    "longitude": 39.9830556,
+    "responsible": {
+      "name": "الدكتور/الحسن المغربي",
+      "mobile": "553538909"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/JZhtQG1tfbMgDQUx9"
+  },
+  {
+    "id": "45",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 46,
+    "name": "سكن مستشفى شرق عرفات",
+    "region": "عرفات",
+    "facilityType": "سكن",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3342567,
+    "longitude": 39.9861759,
+    "responsible": {
+      "name": "الدكتور/مؤيد الرفاعي",
+      "mobile": "551515133"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/ec7MdLwuy3wwWNZP7"
+  },
+  {
+    "id": "46",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 47,
+    "name": "مركز الطوارئ 1",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "شركة مينا الطبية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4089426,
+    "longitude": 39.9019101,
+    "responsible": {
+      "name": "د.سارة الهريري",
+      "mobile": "555076760"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/YYzhD7CRZUvyDbr37"
+  },
+  {
+    "id": "47",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 48,
+    "name": "مركز الطوارئ 2",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "شركة قوة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4077671,
+    "longitude": 39.9003723,
+    "responsible": {
+      "name": "ارين الحربي",
+      "mobile": "556775214"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/qztL6dRA8WXtxzx56"
+  },
+  {
+    "id": "48",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 49,
+    "name": "مركز الطوارئ 3",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "شركة قوة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4026464,
+    "longitude": 39.8945943,
+    "responsible": {
+      "name": "ارين الحربي",
+      "mobile": "556775215"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/RXc8w2MZgF4fhL8u7"
+  },
+  {
+    "id": "49",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 50,
+    "name": "مركز الطوارئ 4",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "شركة قوة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4100655,
+    "longitude": 39.8994215,
+    "responsible": {
+      "name": "ارين الحربي",
+      "mobile": "556775216"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/iL2RyY6J6xkFTamD9"
+  },
+  {
+    "id": "50",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 51,
+    "name": "مركز الطوارئ 5",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "شركة قوة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4171735,
+    "longitude": 39.9014209,
+    "responsible": {
+      "name": "ارين الحربي",
+      "mobile": "556775216"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/pbp2XwVg3RTNHT7r5"
+  },
+  {
+    "id": "51",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 52,
+    "name": "مركز صحي 1 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4222666,
+    "longitude": 39.8749409,
+    "responsible": {
+      "name": "محمد عبدالله مرزوق المزمومي",
+      "mobile": "0505544209"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "أمين أمير تركستاني",
+      "mobile": "0564834452"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/CQcmqrpu68S4eNnu5"
+  },
+  {
+    "id": "52",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 53,
+    "name": "مركز صحي 2 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4146109,
+    "longitude": 39.8835506,
+    "responsible": {
+      "name": "فواز رحيم عبدالرحمن المغربي",
+      "mobile": "0500017179"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عبدالرحمن عطية الغامدي",
+      "mobile": "0501525695"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/JPGyEB62bnWN5rmt6"
+  },
+  {
+    "id": "53",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 54,
+    "name": "مركز صحي 3 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4087838,
+    "longitude": 39.8883202,
+    "responsible": {
+      "name": "فيصل سعيد محمد الزهراني",
+      "mobile": "0568836626"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عبدالله محمد عبدالله العمري",
+      "mobile": "0503977340"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/U6TGHh7Has5LKRgL8"
+  },
+  {
+    "id": "54",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 55,
+    "name": "مركز صحي 4 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4067564,
+    "longitude": 39.8929825,
+    "responsible": {
+      "name": "احمد محمد قطان القثامي",
+      "mobile": "0532342040"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "سلطان عطية علي الزهراني",
+      "mobile": "0558665072"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/GJqxn98yzg2LqyMD7"
+  },
+  {
+    "id": "55",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 56,
+    "name": "مركز صحي 5 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3979027,
+    "longitude": 39.9012166,
+    "responsible": {
+      "name": "مطر صالح احمد الزهراني",
+      "mobile": "0555584143"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "مصطفي علي محمد القحطاني",
+      "mobile": "0503719040"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/whvXgU4My4vG8Sa37"
+  },
+  {
+    "id": "56",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 57,
+    "name": "مركز صحي 6 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4147797,
+    "longitude": 39.8862855,
+    "responsible": {
+      "name": "فهد سعود ردة المالكي",
+      "mobile": "0551100540"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "نور الدين احمد النبراوي",
+      "mobile": "0554522243"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/hkJu6kL9SXukXJ3h6"
+  },
+  {
+    "id": "57",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 58,
+    "name": "مركز صحي 7 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4169962,
+    "longitude": 39.88647,
+    "responsible": {
+      "name": "ماجد وصل الله الطويرقي",
+      "mobile": "0546062828"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "سطام عيد عطاالله الحربي",
+      "mobile": "0541216434"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/GUDsAQ8945i3D6RE7"
+  },
+  {
+    "id": "58",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 59,
+    "name": "مركز صحي 8 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4184855,
+    "longitude": 39.8951356,
+    "responsible": {
+      "name": "حمدان حشار مسفر الشمراني",
+      "mobile": "0563933389"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عبدالله دخيل الله العتيبي",
+      "mobile": "0544341100"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/uNGumrgZd7qrxTM36"
+  },
+  {
+    "id": "59",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 60,
+    "name": "مركز صحي 9 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4239858,
+    "longitude": 39.8933661,
+    "responsible": {
+      "name": "قاسم عبدالله تهامى الزهرانى",
+      "mobile": "0537787889"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "صالح ضيف الله فهيد الحربي",
+      "mobile": "0555146768"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/XJaLuwESpoGMcP4z5"
+  },
+  {
+    "id": "60",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 61,
+    "name": "مركز صحي 10 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4179002,
+    "longitude": 39.8994786,
+    "responsible": {
+      "name": "خالد عويض حمدي النفيعي",
+      "mobile": "0554726255"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "صالح جبار صالح الزهراني",
+      "mobile": "0557316127"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/7FZAybuvm6JCubnA7"
+  },
+  {
+    "id": "61",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 62,
+    "name": "مركز صحي 11 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4223352,
+    "longitude": 39.9002713,
+    "responsible": {
+      "name": "مجدي محمد عابد النجار",
+      "mobile": "0506636966"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "سلطان فهد حسن الغريبي",
+      "mobile": "0559997469"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/58mf8YMwx5qNd4CPA"
+  },
+  {
+    "id": "62",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 63,
+    "name": "مركز صحي 12 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4242297,
+    "longitude": 39.9002749,
+    "responsible": {
+      "name": "خالد محمد احمد الزهراني",
+      "mobile": "0561099910"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عبدالله عايض مطر الثبيتي",
+      "mobile": "0543270081"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/1JFUWKyjyQkzaS2MA"
+  },
+  {
+    "id": "63",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 64,
+    "name": "مركز صحي 13 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.39565,
+    "longitude": 39.9010492,
+    "responsible": {
+      "name": "عبدالله علي احمد غالب",
+      "mobile": "0556007677"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "فيصل عبدربه علي الزهراني",
+      "mobile": "0551360289"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/sdMbFQPX5XKccPzX8"
+  },
+  {
+    "id": "64",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 65,
+    "name": "مركز صحي 14 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4188492,
+    "longitude": 39.8796911,
+    "responsible": {
+      "name": "حسين عبدالله عائض الحارثي",
+      "mobile": "0555700575"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "نزار منير محمد القالف",
+      "mobile": "0561360498"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/tt9J6wr6s6VKsFWY6"
+  },
+  {
+    "id": "65",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 66,
+    "name": "مركز صحي 15 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4165111,
+    "longitude": 39.8802076,
+    "responsible": {
+      "name": "احمد ابراهيم عطية الزهراني",
+      "mobile": "0506774382"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عمار نويحي سافر السهلي",
+      "mobile": "0506600221"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/nfhBmBzssk7MbHUP8"
+  },
+  {
+    "id": "66",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 67,
+    "name": "مركز صحي 16 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4173297,
+    "longitude": 39.8820719,
+    "responsible": {
+      "name": "خميس مسفر خميس الزهراني",
+      "mobile": "0500660736"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "نايف عبدالرحمن طايل العتيبي",
+      "mobile": "0506565611"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/1yqLHtFV3NE4iK3d7"
+  },
+  {
+    "id": "67",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 68,
+    "name": "مركز صحي 17 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4122968,
+    "longitude": 39.8857714,
+    "responsible": {
+      "name": "الحسن نايف حيدر البركاتى",
+      "mobile": "0566774004"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "رائد حميد غيث المزروعي",
+      "mobile": "0590017879"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/5yTVVnkyVUYWamSn6"
+  },
+  {
+    "id": "68",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 69,
+    "name": "مركز صحي 18 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.397567,
+    "longitude": 39.904476,
+    "responsible": {
+      "name": "ظافر مرزوق سفر الغامدي",
+      "mobile": "0555710801"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "مشعل عويض صويلح الجعيد",
+      "mobile": "0594800009"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/5uH6PAgYh4waERMM9"
+  },
+  {
+    "id": "69",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 70,
+    "name": "مركز صحي 19 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4141639,
+    "longitude": 39.8897898,
+    "responsible": {
+      "name": "عبدالعزيز حسن عبده الزبيدي",
+      "mobile": "0555562438"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "محمد جميل سعد العتيبي",
+      "mobile": "0505722847"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/6UDfkxsSwNwfBr6V9"
+  },
+  {
+    "id": "70",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 71,
+    "name": "مركز صحي 20 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4123001,
+    "longitude": 39.8955803,
+    "responsible": {
+      "name": "زياد عبدالله بنيه الفالح",
+      "mobile": "0532946996"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "متعب سعد علي العتيبي",
+      "mobile": "0555715836"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/GJoseU3pW3yQbn8h8"
+  },
+  {
+    "id": "71",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 72,
+    "name": "مركز صحي 21 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4111894,
+    "longitude": 39.8940224,
+    "responsible": {
+      "name": "ماجد حجاج خلف العنزي",
+      "mobile": "0543277797"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "رامي كامل عبدالله بن عثمان",
+      "mobile": "0561611110"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/HdhvVgQgZ86vXHi9A"
+  },
+  {
+    "id": "72",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 73,
+    "name": "مركز صحي 22 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4092414,
+    "longitude": 39.8949791,
+    "responsible": {
+      "name": "احمد علي محمد العرفجي",
+      "mobile": "0590774545"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عايض محمد علي الأسمري",
+      "mobile": "0554745744"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/cUrAacjoKNbqnum3A"
+  },
+  {
+    "id": "73",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 74,
+    "name": "مركز صحي 23 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.409166,
+    "longitude": 39.8923569,
+    "responsible": {
+      "name": "عبدالله محمد عبدالله الزهراني",
+      "mobile": "0555781112"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "محمد عقاب موسى الثقفي",
+      "mobile": "0557188800"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/CPtmR8dWFrKHuZ4T7"
+  },
+  {
+    "id": "74",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 75,
+    "name": "مركز صحي 24 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4089592,
+    "longitude": 39.9048348,
+    "responsible": {
+      "name": "يحي محمد يوسف طميحي",
+      "mobile": "0555772865"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "سلطان رده حسين الحارثي",
+      "mobile": "0531105151"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/LKYRTWazQxYytJG17"
+  },
+  {
+    "id": "75",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 76,
+    "name": "مركز صحي 25 بمنى",
+    "region": "منى",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4077475,
+    "longitude": 39.8995618,
+    "responsible": {
+      "name": "صالح سعيد عيدالغامدي",
+      "mobile": "0504763381"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عبدالله مريف عبدالله الشهري",
+      "mobile": "0561644494"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/i56uCMaqgw5DCzZy8"
+  },
+  {
+    "id": "76",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 77,
+    "name": "مركز صحي 1 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3454512,
+    "longitude": 39.9566201,
+    "responsible": {
+      "name": "عماد عبدالعزيز عبدالحي رفه",
+      "mobile": "966504704858"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عبدالله ربيح مخلف الحربي",
+      "mobile": "966558119994"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/Ga2uqYxWU3EWQeca9"
+  },
+  {
+    "id": "77",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 78,
+    "name": "مركز صحي 2 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3432805,
+    "longitude": 39.960635,
+    "responsible": {
+      "name": "علي رميثة احمد البركاتي",
+      "mobile": "966538474728"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "فيصل قزعان زبار العتيبي",
+      "mobile": "966554221128"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/2YobzVXjNU5Nw7sg7"
+  },
+  {
+    "id": "78",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 79,
+    "name": "مركز صحي 3 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3411214,
+    "longitude": 39.9714677,
+    "responsible": {
+      "name": "هاني محمد عواض الثمالي",
+      "mobile": "966508575775"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "زياد سفر سفر العتيبي",
+      "mobile": "966567127196"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/M1VwW8fMmyrv8x7DA"
+  },
+  {
+    "id": "79",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 80,
+    "name": "مركز صحي 4 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3432696,
+    "longitude": 39.9663237,
+    "responsible": {
+      "name": "القاسم سلطان احمد الثقفي",
+      "mobile": "966565630077"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "محمد شافي معضد العتيبي",
+      "mobile": "966542571508"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/vQM3x3DGP6Pu6Py97"
+  },
+  {
+    "id": "80",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 81,
+    "name": "مركز صحي 5 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3439227,
+    "longitude": 39.9633885,
+    "responsible": {
+      "name": "علي جار الله محمد الزهراني",
+      "mobile": "966543403344"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "صالح عبدالرحمن الحجيلان",
+      "mobile": "966505144466"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/7kaBFW8QvNx61ELa6"
+  },
+  {
+    "id": "81",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 82,
+    "name": "مركز صحي 7 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.346788,
+    "longitude": 39.9591326,
+    "responsible": {
+      "name": "انور عبدالحفيظ عبدالخالق محمد",
+      "mobile": "966560401400"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "محمد علي طلق المقاطي",
+      "mobile": "966504117952"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/H2KQUbC9BvJKYJ5y6"
+  },
+  {
+    "id": "82",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 83,
+    "name": "مركز صحي 8 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3490819,
+    "longitude": 39.9615735,
+    "responsible": {
+      "name": "محمد احمد محمد السيد",
+      "mobile": "966557099655"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/pDsGq5aefMKpdcCX7"
+  },
+  {
+    "id": "83",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 84,
+    "name": "مركز صحي 9 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3472541,
+    "longitude": 39.9652247,
+    "responsible": {
+      "name": "افراح حمادى عبدالله الشيخ",
+      "mobile": "966546751369"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عبدالرحمن ساعد حميد السويعدي",
+      "mobile": "966540099717"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/Gv24MjoBqxoXyRc86"
+  },
+  {
+    "id": "84",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 85,
+    "name": "مركز صحي 10 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3445552,
+    "longitude": 39.9697231,
+    "responsible": {
+      "name": "محمد علي احمد ناصري",
+      "mobile": "966555246672"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "نجم عقاب تركي العتيبي",
+      "mobile": "966555523400"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/wFWhJqKLXtVZqKn57"
+  },
+  {
+    "id": "85",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 86,
+    "name": "مركز صحي 11 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3436947,
+    "longitude": 39.9725659,
+    "responsible": {
+      "name": "عبدالعزيز معيوض معيض الغفيري المالكي",
+      "mobile": "966544499536"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "رشدي عبدالعزيز جارالنبي السعدي",
+      "mobile": "966567505570"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/TxoL5yEomBBj9AHP8"
+  },
+  {
+    "id": "86",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 87,
+    "name": "مركز صحي 12 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3471171,
+    "longitude": 39.972227,
+    "responsible": {
+      "name": "حسام عبدالله سالم الشيخ",
+      "mobile": "966566659309"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "محمد سليمان جامع الحربي",
+      "mobile": "966556055776"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/yTwC3MceQ2PDHmiBA"
+  },
+  {
+    "id": "87",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 88,
+    "name": "مركز صحي 13 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3487782,
+    "longitude": 39.9695219,
+    "responsible": {
+      "name": "محمد محمود اسماعيل الكيشان",
+      "mobile": "966542517156"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "فاضل احمد عايش بوخضر",
+      "mobile": "966547741141"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/2G7jCutckEp1VsuD6"
+  },
+  {
+    "id": "88",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 89,
+    "name": "مركز صحي 14 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3496289,
+    "longitude": 39.9692966,
+    "responsible": {
+      "name": "فهد سعود سعد الحارثي",
+      "mobile": "966555720295"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "فهاد عايش زايد البقمي",
+      "mobile": "966550103581"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/EH4LPoag6VQpH3HB8"
+  },
+  {
+    "id": "89",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 90,
+    "name": "مركز صحي 15 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3499629,
+    "longitude": 39.9710386,
+    "responsible": {
+      "name": "رشيد عيسى فهاد الشبرمي",
+      "mobile": "966502666647"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "حمدان حامد حمدان الحارثى",
+      "mobile": "966569515900"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/S3F9M7dr3Ate19jE7"
+  },
+  {
+    "id": "90",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 91,
+    "name": "مركز صحي 16 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3459592,
+    "longitude": 39.9778861,
+    "responsible": {
+      "name": "ماجد غرم الله محمد الغامدي",
+      "mobile": "966503708880"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عبدالرحمن فهد محمد طلحه",
+      "mobile": "966502511940"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/vEC38cSA9ymUCGyq7"
+  },
+  {
+    "id": "91",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 92,
+    "name": "مركز صحي 17 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3447335,
+    "longitude": 39.9833331,
+    "responsible": {
+      "name": "عادل حاسن محيسن العبيدي",
+      "mobile": "966556940371"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عبدالله عبدالحميد عبدالله الهاجري",
+      "mobile": "966555937374"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/zwax56Fagw3u6pmi8"
+  },
+  {
+    "id": "92",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 93,
+    "name": "مركز صحي 18 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3482405,
+    "longitude": 39.9761756,
+    "responsible": {
+      "name": "عبداللطيف غازي رجاء المعبدي",
+      "mobile": "966535380131"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "ممدوح خالد عبدالله نشار",
+      "mobile": "966564442488"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/PphkczkXLJEp2bit6"
+  },
+  {
+    "id": "93",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 94,
+    "name": "مركز صحي 19 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3529725,
+    "longitude": 39.9698328,
+    "responsible": {
+      "name": "ملهي محمد مبارك القحطاني",
+      "mobile": "966557692725"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "طلال عبدالله محمد البجيدي العنزي",
+      "mobile": "966551133253"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/TZEEzFbafN1MraqM8"
+  },
+  {
+    "id": "94",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 95,
+    "name": "مركز صحي 20 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3514549,
+    "longitude": 39.9753329,
+    "responsible": {
+      "name": "ابراهيم علي أحمد عسيري",
+      "mobile": "966552273339"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عبيد محمد علي الصعب",
+      "mobile": "966506873792"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/Eguz2DWLnvCw1a9D6"
+  },
+  {
+    "id": "95",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 96,
+    "name": "مركز صحي 21 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3495871,
+    "longitude": 39.9796149,
+    "responsible": {
+      "name": "فيروز علي ضياء الدين الجوري",
+      "mobile": "966508898687"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عبدالله عبدالعزيز السالم",
+      "mobile": "966554100888"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/Lpr3c2UjxubxBmq49"
+  },
+  {
+    "id": "96",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 97,
+    "name": "مركز صحي 22 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3465469,
+    "longitude": 39.9867142,
+    "responsible": {
+      "name": "صالح احمد محمد ال خليل الشيخي",
+      "mobile": "966549022920"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "ماجد قليل عواض الثبيتي",
+      "mobile": "966541400666"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/2E1TDeqZsocJy3gNA"
+  },
+  {
+    "id": "97",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 98,
+    "name": "مركز صحي 23 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3547369,
+    "longitude": 39.9765627,
+    "responsible": {
+      "name": "احمد حسن محمد الحسني الزهراني",
+      "mobile": "966563399047"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "منصور محمد القرني",
+      "mobile": "966559882884"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/E7PfqtJWtG8guyiy8"
+  },
+  {
+    "id": "98",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 99,
+    "name": "مركز صحي 24 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3570186,
+    "longitude": 39.973719,
+    "responsible": {
+      "name": "محمد عوض عبدالله الأسمري",
+      "mobile": "966500747999"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "زيد راشد زيد المسلم التميمي",
+      "mobile": "966505496501"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/XRSpnJm1tJFyJ9xA7"
+  },
+  {
+    "id": "99",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 100,
+    "name": "مركز صحي 25 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3566075,
+    "longitude": 39.9765874,
+    "responsible": {
+      "name": "عمار عايض منسي الوعيلي القرشي",
+      "mobile": "966501555149"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عبدالله ساعد هندي الحارثي",
+      "mobile": "966553352885"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/b6XDwHaE8YwNpNg29"
+  },
+  {
+    "id": "100",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 101,
+    "name": "مركز صحي 26 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3533006,
+    "longitude": 39.9809752,
+    "responsible": {
+      "name": "زهره محمد علي كريري",
+      "mobile": "966567000362"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "يوسف هادي محمد العسيري",
+      "mobile": "966556456788"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/Z2NyrGujiHRrfwwe8"
+  },
+  {
+    "id": "101",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 102,
+    "name": "مركز صحي 27 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3507216,
+    "longitude": 39.9882925,
+    "responsible": {
+      "name": "رغده سامي حسن حياة الحازمي",
+      "mobile": "966500543093"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عبدالله حميد محمد الثبيتي",
+      "mobile": "966555119865"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/GiposMs8aykiSTzf7"
+  },
+  {
+    "id": "102",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 103,
+    "name": "مركز صحي 28 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3538597,
+    "longitude": 39.9905642,
+    "responsible": {
+      "name": "احمد سعيد سليم القرشي",
+      "mobile": "966548208140"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عبدالمجيد ضيف الله ماشع المطيري",
+      "mobile": "966508063631"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/km3qX9ywzbJ6vLnm8"
+  },
+  {
+    "id": "103",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 104,
+    "name": "مركز صحي 29 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3572847,
+    "longitude": 39.9828762,
+    "responsible": {
+      "name": "محمد عبدالرحيم احمد دحلان",
+      "mobile": "966503596252"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "خالد غازي سليمان الحربي",
+      "mobile": "966555763935"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/JQXoD6Gu8JMZGvec8"
+  },
+  {
+    "id": "104",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 105,
+    "name": "مركز صحي 30 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3577774,
+    "longitude": 39.9795866,
+    "responsible": {
+      "name": "عبدالرحمن احمد قاسم سالم",
+      "mobile": "966545665454"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "يوسف محمد العنزي",
+      "mobile": "966567515177"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/2kdEynNyQy5AdWWv6"
+  },
+  {
+    "id": "105",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 106,
+    "name": "مركز صحي 31 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3599552,
+    "longitude": 39.97727,
+    "responsible": {
+      "name": "وليد عبدالرحيم عطيه الجهني",
+      "mobile": "966504337662"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "فهد سعود حمدان المطيري",
+      "mobile": "966568154448"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/mumfojMxXX9T92DQ6"
+  },
+  {
+    "id": "106",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 107,
+    "name": "مركز صحي 32 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3607797,
+    "longitude": 39.9746616,
+    "responsible": {
+      "name": "صالح محمد صالح سلطان العمري",
+      "mobile": "966555101050"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عبدالله نبا شامخ المهمزي الرشيدي",
+      "mobile": "966508167459"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/Npz2t9PhpvFW4YHS8"
+  },
+  {
+    "id": "107",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 108,
+    "name": "مركز صحي 33 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3636274,
+    "longitude": 39.9760158,
+    "responsible": {
+      "name": "عبدالله خلف دريميح الجعيد",
+      "mobile": "966569955849"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "سلمان محيا فيصل المحياء",
+      "mobile": "966591448664"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/JwQP2pWenNwVeUvP7"
+  },
+  {
+    "id": "108",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 109,
+    "name": "مركز صحي 34 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3614279,
+    "longitude": 39.9797121,
+    "responsible": {
+      "name": "راجي احسان محمد كنساره",
+      "mobile": "966555575306"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "بسام محمد رضا علي الهاجري",
+      "mobile": "966555937377"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/1mmS4bJJLXMJgx8s7"
+  },
+  {
+    "id": "109",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 110,
+    "name": "مركز صحي 35 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3600919,
+    "longitude": 39.9845532,
+    "responsible": {
+      "name": "مصلح صالح مصلح العبيدي",
+      "mobile": "966555209772"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "صالح علي محمد الغامدي",
+      "mobile": "966565000887"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/CsCABhJkNecPWQpr9"
+  },
+  {
+    "id": "110",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 111,
+    "name": "مركز صحي 36 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3624916,
+    "longitude": 39.9789419,
+    "responsible": {
+      "name": "حزام أحمد معيض المالكي",
+      "mobile": "966555706680"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "سطام سعد خليف الحربي",
+      "mobile": "966540898000"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/2cCUd4b6LgijVDuU7"
+  },
+  {
+    "id": "111",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 112,
+    "name": "مركز صحي 37 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3644728,
+    "longitude": 39.9790075,
+    "responsible": {
+      "name": "بندر عاطي عمري القزيعي السلمي",
+      "mobile": "966599114487"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "علي احمد محمد عيساوي",
+      "mobile": "966555238580"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/vPXWcpxsTz4danW47"
+  },
+  {
+    "id": "112",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 113,
+    "name": "مركز صحي 38 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3634479,
+    "longitude": 39.982732,
+    "responsible": {
+      "name": "تركي سعود سعد الحارثي",
+      "mobile": "966554527365"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "ماجد بطمان محمد العنزي",
+      "mobile": "966551230808"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/quxCAZyvZSK4ynh67"
+  },
+  {
+    "id": "113",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 114,
+    "name": "مركز صحي 39 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.362466,
+    "longitude": 39.9844558,
+    "responsible": {
+      "name": "علي احمد موسى الزهراني",
+      "mobile": "966556446970"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "بدر محمد وعلان الحربي",
+      "mobile": "966553935808"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/ESctkDe5nGFtd1hWA"
+  },
+  {
+    "id": "114",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 115,
+    "name": "مركز صحي 40 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3589227,
+    "longitude": 39.9903783,
+    "responsible": {
+      "name": "اسامه محمد عبداللطيف المغربي",
+      "mobile": "966505659897"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "ماجد مطلق الطرقي العنزي",
+      "mobile": "966544059899"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/YUpch3GFVC73knGAA"
+  },
+  {
+    "id": "115",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 116,
+    "name": "مركز صحي 41 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3672599,
+    "longitude": 39.9829939,
+    "responsible": {
+      "name": "مسفر مسعود علي المسفري المجنوني",
+      "mobile": "966504543697"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عمر احمد محمد الغامدي",
+      "mobile": "966506201889"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/jBZxTGUwrf4wPDxY7"
+  },
+  {
+    "id": "116",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 117,
+    "name": "مركز صحي 42 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3702493,
+    "longitude": 39.9803555,
+    "responsible": {
+      "name": "عبدالله عايض مرشود السلمي",
+      "mobile": "966553559066"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "نادر عبدالله محمد الحربي",
+      "mobile": "966553051661"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/936ecUsxtvF8BybW9"
+  },
+  {
+    "id": "117",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 118,
+    "name": "مركز صحي 43 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3696134,
+    "longitude": 39.9836184,
+    "responsible": {
+      "name": "ماهر محمد علي عبدالله السالمي",
+      "mobile": "966500714161"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عادل عبدالله محمد الحربي",
+      "mobile": "966503984021"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/dLyVcwBnFhBW35Eg6"
+  },
+  {
+    "id": "118",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 119,
+    "name": "مركز صحي 44 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3708798,
+    "longitude": 39.9852924,
+    "responsible": {
+      "name": "فيصل محمد احمد الزهراني",
+      "mobile": "966598405023"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "سعيد سعدالله عواض الغامدي",
+      "mobile": "966550553694"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/yt2TeH76XVLSemwLA"
+  },
+  {
+    "id": "119",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 120,
+    "name": "مركز صحي 45 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.37319,
+    "longitude": 39.9860748,
+    "responsible": {
+      "name": "معزي عزيز سفر العتيبي",
+      "mobile": "966554432928"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "محمد سالم مطني العنزي",
+      "mobile": "966500222788"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/pyHiwSisDJWeb6Qa6"
+  },
+  {
+    "id": "120",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 121,
+    "name": "مركز صحي 46 بعرفات",
+    "region": "عرفات",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3762798,
+    "longitude": 39.9857868,
+    "responsible": {
+      "name": "مبارك حمدان مبارك الهذلي",
+      "mobile": "966553036884"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "عبدالله محمد صالح الحنوس",
+      "mobile": "966536690009"
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/Bwq7V9pj3pqvbEWD9"
+  },
+  {
+    "id": "121",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 122,
+    "name": "مركز صحي خط المشاة 1 بمزدلفة",
+    "region": "مزدلفة",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3866435,
+    "longitude": 39.9076485,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/Vx1K7ZbZTy6ByES29"
+  },
+  {
+    "id": "122",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 123,
+    "name": "مركز صحي خط المشاة 2 بمزدلفة",
+    "region": "مزدلفة",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3878578,
+    "longitude": 39.9105912,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/iFK13dMohFUjed4U6"
+  },
+  {
+    "id": "123",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 124,
+    "name": "مركز صحي خط المشاة 3 بمزدلفة",
+    "region": "مزدلفة",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3795054,
+    "longitude": 39.922941,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/rLDYvCbnNcdMLy2o7"
+  },
+  {
+    "id": "124",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 125,
+    "name": "مركز صحي خط المشاة 4 بمزدلفة",
+    "region": "مزدلفة",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3713205,
+    "longitude": 39.937698,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/1F7wascAuzHUBqGf6"
+  },
+  {
+    "id": "125",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 126,
+    "name": "مركز صحي خط المشاة 5 بمزدلفة",
+    "region": "مزدلفة",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3641072,
+    "longitude": 39.9486439,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/xVhE88i7EPaZrmhN7"
+  },
+  {
+    "id": "126",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 127,
+    "name": "مركز صحي خط المشاة 6 بمزدلفة",
+    "region": "مزدلفة",
+    "facilityType": "مركز صحي",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3598186,
+    "longitude": 39.9564845,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/GT7bqiGEWCfLeBFv9"
+  },
+  {
+    "id": "127",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 128,
+    "name": "بوث مشاه 1",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "جمعية زمزم الصحية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3638125,
+    "longitude": 39.9652772,
+    "responsible": {
+      "name": "د. عبدالله نفيع المطرفي",
+      "mobile": "505624105"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/q4NMvLE7a5FgY2Wx6"
+  },
+  {
+    "id": "128",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 129,
+    "name": "بوث مشاه 2",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "جمعية زمزم الصحية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3650154,
+    "longitude": 39.9621554,
+    "responsible": {
+      "name": "د. عبدالله نفيع المطرفي",
+      "mobile": "505624105"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/kWiN2N18f6biT6jt7"
+  },
+  {
+    "id": "129",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 130,
+    "name": "بوث مشاه 3",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "جمعية زمزم الصحية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3663428,
+    "longitude": 39.9587698,
+    "responsible": {
+      "name": "د. عبدالله نفيع المطرفي",
+      "mobile": "505624105"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/cW9ni6Q6bbktqd4d7"
+  },
+  {
+    "id": "130",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 131,
+    "name": "بوث مشاه 4",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "جمعية زمزم الصحية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3672997,
+    "longitude": 39.9559409,
+    "responsible": {
+      "name": "د. عبدالله نفيع المطرفي",
+      "mobile": "505624105"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/b3hXdRrVb4EZMfmc8"
+  },
+  {
+    "id": "131",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 132,
+    "name": "بوث مشاه 5",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "جمعية زمزم الصحية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3683073,
+    "longitude": 39.9522487,
+    "responsible": {
+      "name": "د. عبدالله نفيع المطرفي",
+      "mobile": "505624105"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/xVhE88i7EPaZrmhN7"
+  },
+  {
+    "id": "132",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 133,
+    "name": "بوث مشاه 6",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "الجمعية الخيرية للرعاية الصحية الأولية درهم وقاية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3686111,
+    "longitude": 39.9504444,
+    "responsible": {
+      "name": "م. تركي فهد الحارثي",
+      "mobile": "537787875"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/xVhE88i7EPaZrmhN7"
+  },
+  {
+    "id": "133",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 134,
+    "name": "بوث مشاه 7",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "الجمعية الخيرية للرعاية الصحية الأولية درهم وقاية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3672075,
+    "longitude": 39.94716,
+    "responsible": {
+      "name": "م. تركي فهد الحارثي",
+      "mobile": "537787875"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/xVhE88i7EPaZrmhN7"
+  },
+  {
+    "id": "134",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 135,
+    "name": "بوث مشاه 8",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "الجمعية الخيرية للرعاية بالأمراض المزمنة (شفاء)",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3566389,
+    "longitude": 39.9590278,
+    "responsible": {
+      "name": "د. خالد عبدالله طيب",
+      "mobile": "590003534"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/CM7USWugvqUPrkhK6"
+  },
+  {
+    "id": "135",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 136,
+    "name": "بوث مشاه 9",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "الجمعية الخيرية للرعاية بالأمراض المزمنة (شفاء)",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3586264,
+    "longitude": 39.9574181,
+    "responsible": {
+      "name": "د. خالد عبدالله طيب",
+      "mobile": "590003534"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/GT7bqiGEWCfLeBFv9"
+  },
+  {
+    "id": "136",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 137,
+    "name": "بوث مشاه 10",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "الجمعية الخيرية للرعاية بالأمراض المزمنة (شفاء)",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3602005,
+    "longitude": 39.9547281,
+    "responsible": {
+      "name": "د. خالد عبدالله طيب",
+      "mobile": "590003534"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/GT7bqiGEWCfLeBFv9"
+  },
+  {
+    "id": "137",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 138,
+    "name": "بوث مشاه 11",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "الجمعية الخيرية للرعاية بالأمراض المزمنة (شفاء)",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3616944,
+    "longitude": 39.9525,
+    "responsible": {
+      "name": "د. خالد عبدالله طيب",
+      "mobile": "590003534"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/GT7bqiGEWCfLeBFv9"
+  },
+  {
+    "id": "138",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 139,
+    "name": "بوث مشاه 12",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "الجمعية الخيرية للرعاية بالأمراض المزمنة (شفاء)",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3675973,
+    "longitude": 39.944587,
+    "responsible": {
+      "name": "د. خالد عبدالله طيب",
+      "mobile": "590003534"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/xVhE88i7EPaZrmhN7"
+  },
+  {
+    "id": "139",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 140,
+    "name": "بوث مشاه 13",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "الجمعية الخيرية للرعاية بالأمراض المزمنة (شفاء)",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3693825,
+    "longitude": 39.939818,
+    "responsible": {
+      "name": "د. خالد عبدالله طيب",
+      "mobile": "590003534"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/1F7wascAuzHUBqGf6"
+  },
+  {
+    "id": "140",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 141,
+    "name": "بوث مشاه 14",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "الجمعية الخيرية للرعاية الصحية الأولية درهم وقاية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3730671,
+    "longitude": 39.9354298,
+    "responsible": {
+      "name": "م. تركي فهد الحارثي",
+      "mobile": "537787875"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/1F7wascAuzHUBqGf6"
+  },
+  {
+    "id": "141",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 142,
+    "name": "بوث مشاه 15",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "الجمعية الخيرية للرعاية بالأمراض المزمنة (شفاء)",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3745593,
+    "longitude": 39.9325654,
+    "responsible": {
+      "name": "د. خالد عبدالله طيب",
+      "mobile": "590003534"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/1F7wascAuzHUBqGf6"
+  },
+  {
+    "id": "142",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 143,
+    "name": "بوث مشاه 16",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "الجمعية الخيرية للرعاية الصحية الأولية درهم وقاية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3750943,
+    "longitude": 39.9298889,
+    "responsible": {
+      "name": "م. تركي فهد الحارثي",
+      "mobile": "537787875"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/rR8FYxJtmRUh8m2y6"
+  },
+  {
+    "id": "143",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 144,
+    "name": "بوث مشاه 17",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "جمعية الحج والعمرة الصحية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3862621,
+    "longitude": 39.9151674,
+    "responsible": {
+      "name": "د. عبدالرحمن سالم البليهشي",
+      "mobile": "564540617"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/qq5LsWF7t4dBGP118"
+  },
+  {
+    "id": "144",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 145,
+    "name": "بوث مشاه 18",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "جمعية الحج والعمرة الصحية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3844456,
+    "longitude": 39.9166184,
+    "responsible": {
+      "name": "د. عبدالرحمن سالم البليهشي",
+      "mobile": "564540617"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/ECdxWDrf5DvDaEqo9"
+  },
+  {
+    "id": "145",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 146,
+    "name": "بوث مشاه 19",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "جمعية الحج والعمرة الصحية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3828276,
+    "longitude": 39.9189791,
+    "responsible": {
+      "name": "د. عبدالرحمن سالم البليهشي",
+      "mobile": "564540617"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/rLDYvCbnNcdMLy2o7"
+  },
+  {
+    "id": "146",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 147,
+    "name": "بوث مشاه 20",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "تحالف الجمعيات الصحية بالمدينة المنورة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3848056,
+    "longitude": 39.9132222,
+    "responsible": {
+      "name": "أشرف يوسف مددين",
+      "mobile": "506324030"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/iFK13dMohFUjed4U6"
+  },
+  {
+    "id": "147",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 148,
+    "name": "بوث مشاه 21",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "تحالف الجمعيات الصحية بالمدينة المنورة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3616277,
+    "longitude": 39.9525417,
+    "responsible": {
+      "name": "أشرف يوسف مددين",
+      "mobile": "506324030"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/GT7bqiGEWCfLeBFv9"
+  },
+  {
+    "id": "148",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 149,
+    "name": "بوث مشاه 22",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "تحالف الجمعيات الصحية بالمدينة المنورة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3899444,
+    "longitude": 39.9063889,
+    "responsible": {
+      "name": "أشرف يوسف مددين",
+      "mobile": "506324030"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/iFK13dMohFUjed4U6"
+  },
+  {
+    "id": "149",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 150,
+    "name": "بوث مشاه 23",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "جمعية الحج والعمرة الصحية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3885808,
+    "longitude": 39.9196713,
+    "responsible": {
+      "name": "د. عبدالرحمن سالم البليهشي",
+      "mobile": "564540617"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/Dxs5jgfLntzwY5gn7"
+  },
+  {
+    "id": "150",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 151,
+    "name": "بوث مشاه 24",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "جمعية الحج والعمرة الصحية",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3890556,
+    "longitude": 39.9151667,
+    "responsible": {
+      "name": "د. عبدالرحمن سالم البليهشي",
+      "mobile": "564540617"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/iFK13dMohFUjed4U6"
+  },
+  {
+    "id": "151",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 152,
+    "name": "بوث مشاه 25",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "تحالف الجمعيات الصحية بالمدينة المنورة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3921845,
+    "longitude": 39.912849,
+    "responsible": {
+      "name": "أشرف يوسف مددين",
+      "mobile": "506324030"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/iFK13dMohFUjed4U6"
+  },
+  {
+    "id": "152",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 153,
+    "name": "بوث مشاه 26",
+    "region": "مزدلفة",
+    "facilityType": "Medical Booth",
+    "operator": "تحالف الجمعيات الصحية بالمدينة المنورة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3941319,
+    "longitude": 39.9099045,
+    "responsible": {
+      "name": "أشرف يوسف مددين",
+      "mobile": "506324030"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/iFK13dMohFUjed4U6"
+  },
+  {
+    "id": "153",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 154,
+    "name": "مهبط طائرات مستشفى منى الطوارئ",
+    "region": "منى",
+    "facilityType": "مهبط الطائرات",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.413785,
+    "longitude": 39.8800006,
+    "responsible": {
+      "name": "الدكتور/نزار محمد أحمد",
+      "mobile": "0569778167"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/a7K7RhcghUws2WHs8"
+  },
+  {
+    "id": "154",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 155,
+    "name": "مهبط طائرات مستشفى شرق عرفات",
+    "region": "عرفات",
+    "facilityType": "مهبط الطائرات",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3348257,
+    "longitude": 39.9872367,
+    "responsible": {
+      "name": "الدكتور/مؤيد الرفاعي",
+      "mobile": "0551515133"
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/dV8JdHVpqyHH6DpA8"
+  },
+  {
+    "id": "155",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 156,
+    "name": "مهبط طائرات مستشفى عرفات العام",
+    "region": "عرفات",
+    "facilityType": "مهبط الطائرات",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3507696,
+    "longitude": 39.9825914,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/upvtrENE4Rnr1Ydr5"
+  },
+  {
+    "id": "156",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 157,
+    "name": "مهبط طائرات مستشفى حراء العام",
+    "region": "مكة المكرمة",
+    "facilityType": "مهبط الطائرات",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.485155,
+    "longitude": 39.7894982,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/ZuhKxqvrANNua6qx5"
+  },
+  {
+    "id": "157",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 158,
+    "name": "الوحدة الصحية 1 بمكة المكرمة",
+    "region": "مكة المكرمة",
+    "facilityType": "وحدة صحية",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4160314,
+    "longitude": 39.8631892,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/3SXaCqZ4FBya2xLr8"
+  },
+  {
+    "id": "158",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 159,
+    "name": "الوحدة الصحية 2 بمكة المكرمة",
+    "region": "مكة المكرمة",
+    "facilityType": "وحدة صحية",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4242038,
+    "longitude": 39.860103,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/W3vDkshgG6M8VDZbA"
+  },
+  {
+    "id": "159",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 160,
+    "name": "الوحدة الصحية 3 بمكة المكرمة",
+    "region": "مكة المكرمة",
+    "facilityType": "وحدة صحية",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.4216296,
+    "longitude": 39.8514869,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/C6gMkuVRz55NzPZL6"
+  },
+  {
+    "id": "160",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 161,
+    "name": "مهبط طائرات مستشفى الملك فيصل التخصصي",
+    "region": "مكة المكرمة",
+    "facilityType": "مهبط الطائرات",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.434093,
+    "longitude": 39.853937,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/YRufRXR2hLkdPRHF7"
+  },
+  {
+    "id": "161",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 162,
+    "name": "مهبط طائرات مستشفى مدينة الملك عبدالله الطبية",
+    "region": "مكة المكرمة",
+    "facilityType": "مهبط الطائرات",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3832296,
+    "longitude": 39.8789034,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/81TZgwjb9dwgEfE26"
+  },
+  {
+    "id": "162",
+    "sourceSheet": "المستشفيات الميدانية 1447",
+    "sourceRow": 163,
+    "name": "مهبط طائرات مستشفى النور التخصصي",
+    "region": "مكة المكرمة",
+    "facilityType": "مهبط الطائرات",
+    "operator": "وزارة الصحة",
+    "beds": "",
+    "bedsTotal": "",
+    "bedsIcu": "",
+    "bedsEmergency": "",
+    "bedsClinics": "",
+    "bedsOperations": "",
+    "bedsIsolation": "",
+    "bedsHeat": "",
+    "morgueCapacity": "",
+    "serviceScope": "",
+    "mainServices": "",
+    "coverageScope": "",
+    "bedsDataType": "",
+    "latitude": 21.3854969,
+    "longitude": 39.8586614,
+    "responsible": {
+      "name": "",
+      "mobile": ""
+    },
+    "centerManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "custodyReceiver": {
+      "name": "",
+      "mobile": ""
+    },
+    "hospitalManager": {
+      "name": "",
+      "mobile": ""
+    },
+    "extraFields": {},
+    "googleMapsUrl": "https://maps.app.goo.gl/jj1FR25CvQcaCzi26"
+  }
+];
